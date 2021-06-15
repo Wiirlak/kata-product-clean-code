@@ -1,6 +1,24 @@
 # Show me a product kata!
 
-## Context
+## Design
+
+### Modèle
+
+![schema](https://cdn.discordapp.com/attachments/727912518118408315/854391771978661978/Untitled_Diagram.png)
+
+### Explication
+
+Notre priorité était de séparer les différents domaines :
+ - Partie utilisateur -> Authentification (non implémentée)
+ - Partie produit -> Information du produit
+ - Partie promotion -> Calculs des promotions
+ - Récupération de données -> Infrastructure
+
+Merci
+
+___
+
+## Consigne
 
 The problem we are trying to solve is to be able to visualize a product page with it's details and price.
 

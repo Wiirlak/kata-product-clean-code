@@ -1,0 +1,32 @@
+{
+  "name": "kata-product-clean-code",
+  "version": "1.0.0",
+  "description": "The problem we are trying to solve is to be able to visualize a product page with it's details and price.",
+  "main": "main.ts",
+  "scripts": {
+    "start": "ts-node main.ts",
+    "start:watch": "nodemon --watch \"src/**\" --ext \"ts,json\" --ignore \"src/**/*.spec.ts\" --exec \"ts-node main.ts\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wiirlak/kata-product-clean-code.git"
+  },
+  "author": "DESJARDINS Alexis, VALDEZ Luis, NISOLE Bastien, ZHUANG Patrick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wiirlak/kata-product-clean-code/issues"
+  },
+  "homepage": "https://github.com/Wiirlak/kata-product-clean-code#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "ts-node": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.12",
+    "@types/node": "^15.12.2",
+    "nodemon": "^2.0.7",
+    "typescript": "^4.3.2"
+  }
+}
